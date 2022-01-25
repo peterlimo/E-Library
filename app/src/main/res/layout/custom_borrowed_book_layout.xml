@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_book_list"
+    android:paddingBottom="@dimen/size_byte"
+    android:paddingLeft="@dimen/size_word"
+    android:layout_margin="10dp"
+    android:paddingRight="@dimen/size_word"
+    android:paddingTop="@dimen/size_byte">
+    <TextView
+        android:id="@+id/b_bookTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:padding="@dimen/half_byte"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Wings Of Fire"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textSize="22sp"
+        />
+
+    <ImageView
+        android:id="@+id/b_imageBook"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/b_bookTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/word"
+        android:scaleType="fitCenter"
+        android:src="@drawable/a_icon" />
+
+
+    <TextView
+        android:id="@+id/b_bookisBn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/b_imageBook"
+        android:padding="@dimen/half_byte"
+        android:textColor="@color/black"
+        android:text="Marathi"
+        android:layout_marginTop="10dp"
+        android:textSize="@dimen/sizeTextSecondary" />
+
+</RelativeLayout>

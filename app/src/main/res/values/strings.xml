@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Virtual Library</string>
+    <string name="login_here">Login here</string>
+    <string name="register_here"><u>Register here</u></string>
+    <string name="login_as_an_admin"><u>Login As An admin</u></string>
+    <string name="click_here_to_select"><u>Click Here to select book Image</u></string>
+</resources>

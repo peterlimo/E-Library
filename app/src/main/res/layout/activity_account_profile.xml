@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingTop="25dp"
+    android:orientation="vertical"
+    tools:context=".student.AccountProfile">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:freezesText="true"
+        android:text="STUDENT LIBRARY PROFILE"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:freezesText="true"
+        android:text="Name:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:freezesText="true"
+        android:id="@+id/tv_name"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorPrimaryLight"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:freezesText="true"
+        android:text="Email "
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:freezesText="true"
+        android:id="@+id/tv_email"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorPrimaryLight"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:freezesText="true"
+        android:text="Registration number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:freezesText="true"
+        android:id="@+id/tv_reg"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorPrimaryLight"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:freezesText="true"
+        android:text="Number of books borrowed"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:freezesText="true"
+        android:id="@+id/tv_no_of_books"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorPrimaryLight"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
